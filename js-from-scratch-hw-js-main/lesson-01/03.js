@@ -1,4 +1,3 @@
-let sum = 0;
 let i = 1;
 
 while (i <= 20) {
@@ -9,3 +8,4 @@ while (i <= 20) {
 }
 
 console.log(sum); // Выведет: 100
+let sum = 0;
