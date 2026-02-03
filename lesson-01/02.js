@@ -7,3 +7,5 @@ while (i <= 10) {
 }
 
 let sum = factorial; // Создаем переменную sum со значением факториала
+
+console.log(sum);
