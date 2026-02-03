@@ -1,10 +1,9 @@
-// Убедитесь, что этот код выполняется в глобальной области видимости
-window.factorial = 1;  
+let factorial = 1;  
 let n = 1;          
 
 while (n <= 10) {   
-    window.factorial = window.factorial * n;  
+    factorial = factorial * n;  
     n = n + 1;      
 }
 
-console.log(window.factorial);
+console.log(factorial); 
