@@ -1,8 +1,7 @@
-let factorial = 1;  
-let n = 1;
+let i = 1;          // начинаем с 1
+let factorial = 1;  // начальное значение факториала
 
-while (n <= 10) {
-    factorial = factorial * n;
-    n = n + 1;
+while (i <= 10) {
+    factorial *= i; // умножаем текущее значение на i
+    i++;            // увеличиваем i на 1 для следующей итерации
 }
-
